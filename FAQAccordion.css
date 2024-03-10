@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.maincard{    
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 700px;
+    border: 2px solid rgb(255, 255, 255);
+    background: #eeeeee;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #acacac;
+    text-align: center;
+    min-width: 0;   
+}
+
+.gridrows{
+    display: grid;    
+}
+
+.faqstitle{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 1000;
+    font-family: "Work Sans", sans-serif;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.questiontitle
+{
+    display: flex;
+}
+
+.question-title-heading{
+    align-items: start;
+}
+
+.questionsmain{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.questionsfull{
+    border-bottom: 1px solid rgba(171, 171, 171, 0.5);
+    margin: 5px;
+}
+
+.questionheading{
+    flex: 1;
+    text-align: left;
+    font-size: 25px;
+    font-style: italic;
+    font-family: "Work Sans", sans-serif;
+}
+.questionbutton{ 
+    align-items: flex-end;
+}
+
+.question-content{
+    text-align: left;
+    font-style: italic;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+@media screen and (max-width: 600px) {
+    .maincard{    
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+        width: 400px;
+        border: 2px solid rgb(255, 255, 255);
+        background: #e8e8e8;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #acacac;
+        text-align: center;
+        min-width: 0;   
+    }
+
+    .questionheading{
+        flex: 1;
+        text-align: left;
+        font-size: 20px;
+        font-style: italic;
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .faqstitle{
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 800;
+        font-family: "Work Sans", sans-serif;
+    }
+
+}
